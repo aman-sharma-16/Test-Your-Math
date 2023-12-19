@@ -1,0 +1,40 @@
+#rules{
+    top: 18px;
+}
+
+#container{
+    display: block;
+}
+
+#scoreAndLevel{
+    flex-direction: row;
+    width: 300px;
+}
+
+div#box{
+    margin: 50px auto;
+    width: 320px;
+}
+
+#box::before{
+    margin: 22.5px;
+    width: 272px;
+}
+
+#scoreAndLevel{
+    margin: 10px auto;
+    top:0px;
+}
+
+#userinputs,#status{
+    width: 280px;
+    margin-left: 16px;
+}
+
+#rbtn,#submit{
+    width: 120px;
+}
+
+#box>ul>li {
+    top: 0.4vh;
+}
